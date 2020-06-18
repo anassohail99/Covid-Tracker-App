@@ -17,8 +17,8 @@ class App extends Component {
     return (
       <div className={styles.container}>
         <Cards data={data} />
-        <CountryPicker />
-        <Chart />
+        {/* <CountryPicker />
+        <Chart /> */}
       </div>
     );
   }
