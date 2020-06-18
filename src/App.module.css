@@ -1,0 +1,10 @@
+body {
+    background-color: azure;
+    color: #2c2c2d;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
