@@ -23,7 +23,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           {" "}
           {/*we use cx to use multiple styles*/}
           <CardContent>
-            <Typography color="text-secondary" gutterBottom>
+            <Typography color="textSecondary" gutterBottom>
               Infected
             </Typography>
             <Typography variant="h5">
@@ -51,7 +51,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.card, styles.recovered)}
         >
           <CardContent>
-            <Typography color="text-secondary" gutterBottom>
+            <Typography color="textSecondary" gutterBottom>
               Recovered
             </Typography>
             <Typography variant="h5">
@@ -79,7 +79,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.card, styles.deaths)}
         >
           <CardContent>
-            <Typography color="text-secondary" gutterBottom>
+            <Typography color="textSecondary" gutterBottom>
               Deaths
             </Typography>
             <Typography variant="h5">

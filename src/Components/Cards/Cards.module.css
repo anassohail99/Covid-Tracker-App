@@ -10,6 +10,8 @@ img {
 
 .card {
     margin: 0 2% !important;
+    background: #42b0b4 !important;
+    color: #fff !important;
 }
 
 .infected {
