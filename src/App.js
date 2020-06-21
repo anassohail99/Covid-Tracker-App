@@ -14,16 +14,16 @@ class App extends Component {
     this.setState({ data: FetchData });
   }
 
-  handleCountryChange = async (country) => {};
+  handleCountryChange = async (country) => {
+    console.log(country);
+  };
 
   render() {
     const { data } = this.state;
     return (
-      <div className={styles.container}>
+      <div className={styles.Container}>
         <Cards data={data} />
-        <CountryPicker
-          handleCountryChange={this.componentWillUnmounthandleCountryChange}
-        />
+        <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart />
       </div>
     );
