@@ -24,6 +24,7 @@ class App extends Component {
     const { data, country } = this.state;
     return (
       <div className={styles.Container}>
+        <h1>COVID-19 TRACKER</h1>
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
